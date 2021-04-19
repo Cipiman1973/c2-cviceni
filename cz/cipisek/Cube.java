@@ -10,14 +10,13 @@ public class Cube {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the required size of the array :");
-        Scanner s = new Scanner(System.in);
-        int size = s.nextInt();
+        int size = sc.nextInt();
         int numbers[] = new int[size];
         int sum = 0;
         System.out.println("Enter the elements of the array one by one in cm ");
 
         for (int i = 0; i < size; i++) {
-            numbers[i] = s.nextInt();
+            numbers[i] = sc.nextInt();
             sum = sum + numbers[i];
         }
 
