@@ -3,7 +3,7 @@ package cz.cipisek;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class Cinema {
+public class Cinema2 {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
